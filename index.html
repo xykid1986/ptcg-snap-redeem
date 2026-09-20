@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PTCG Snap Redeem captures visible Pokémon TCG Live QR codes from paused YouTube videos and starts redemption in one shortcut.">
+  <title>PTCG Snap Redeem — Faster Pokémon TCG Live code redemption</title>
+  <style>
+    :root { color-scheme: dark; --ink: #eef3e7; --muted: #b6c0b0; --lime: #dcff67; --deep: #0d130e; }
+    * { box-sizing: border-box; } body { margin: 0; font: 16px/1.55 Inter, ui-sans-serif, system-ui, sans-serif; color: var(--ink); background: radial-gradient(circle at 80% -10%, #355d34 0, transparent 33rem), var(--deep); }
+    a { color: inherit; } .wrap { width: min(1080px, calc(100% - 40px)); margin: auto; }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; font-weight: 750; } .brand { display: flex; gap: 10px; align-items: center; text-decoration: none; } .mark { display: grid; place-items: center; width: 32px; height: 32px; color: #192114; background: var(--lime); border-radius: 9px; font-size: 19px; } .quiet { color: var(--muted); font-size: .9rem; }
+    .hero { min-height: 590px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; padding: 70px 0 110px; } .eyebrow { color: var(--lime); font-size: .8rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; } h1 { margin: 12px 0 18px; font-size: clamp(2.7rem, 6vw, 5.3rem); line-height: .98; letter-spacing: -.055em; } .lede { max-width: 610px; color: var(--muted); font-size: 1.14rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; } .button { padding: 12px 17px; border-radius: 9px; font-weight: 800; text-decoration: none; } .primary { color: #192114; background: var(--lime); } .secondary { border: 1px solid #526451; }
+    .demo { padding: 25px; background: linear-gradient(135deg, #2b492c, #18271a); border: 1px solid #5a7759; border-radius: 22px; box-shadow: 0 26px 60px #0008; } .video { display: grid; place-items: center; aspect-ratio: 16 / 10; border-radius: 14px; color: var(--lime); background: #0c110d; font-size: 4rem; } .demo p { margin: 18px 0 0; font-weight: 700; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 0 0 105px; } .step { min-height: 190px; padding: 24px; border: 1px solid #415940; border-radius: 15px; background: #142016; } .step b { display: block; margin-bottom: 12px; color: var(--lime); font-size: 1.5rem; } .step h2 { margin: 0 0 8px; font-size: 1.1rem; } .step p { margin: 0; color: var(--muted); }
+    .note { max-width: 800px; margin: 0 auto 92px; padding: 26px; border-left: 4px solid var(--lime); background: #152017; color: var(--muted); } footer { padding: 30px 0 42px; border-top: 1px solid #2d412e; color: var(--muted); font-size: .87rem; } footer .wrap { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    @media (max-width: 760px) { .hero { grid-template-columns: 1fr; gap: 34px; padding: 52px 0 78px; } .steps { grid-template-columns: 1fr; padding-bottom: 70px; } }
+  </style>
+</head>
+<body>
+  <header class="wrap"><nav><a class="brand" href="./"><span class="mark">⌁</span><span>PTCG Snap Redeem</span></a><a class="quiet" href="privacy.html">Privacy</a></nav></header>
+  <main>
+    <section class="wrap hero"><div><div class="eyebrow">Chrome extension</div><h1>Spot the QR.<br>Redeem faster.</h1><p class="lede">PTCG Snap Redeem reads a visible Pokémon TCG Live QR code from a paused YouTube video, opens the official redemption page with the code ready, and completes the redemption flow when the site allows it.</p><div class="actions"><a class="button primary" href="https://chromewebstore.google.com/detail/dljebpbfekkjkgpjenldelaahldajijb?authuser=0&amp;hl=en">Get PTCG Snap Redeem</a><a class="button secondary" href="privacy.html">Read privacy policy</a></div></div><aside class="demo" aria-label="How PTCG Snap Redeem works"><div class="video">⌘⇧S</div><p>Pause the video, then scan with one shortcut.</p></aside></section>
+    <section class="wrap steps" aria-label="Three simple steps"><article class="step"><b>01</b><h2>Pause on the code card</h2><p>Make sure the QR code is clear, fully visible, and not covered by glare, a finger, or other objects.</p></article><article class="step"><b>02</b><h2>Press the shortcut</h2><p>Use Command+Shift+S on macOS or Ctrl+Shift+S elsewhere. The extension scans the visible YouTube tab locally.</p></article><article class="step"><b>03</b><h2>Redeem on the official site</h2><p>The code is opened on Pokémon TCG Live’s redemption page. Sign in if needed, then the extension submits and redeems when available.</p></article></section>
+    <p class="note">PTCG Snap Redeem includes 15 free scans. A $1.99 one-time lifetime license unlocks unlimited scans. It is an independent tool and is not affiliated with, endorsed by, or sponsored by Pokémon or Nintendo.</p>
+  </main>
+  <footer><div class="wrap"><span>© 2026 PTCG Snap Redeem</span><span><a href="privacy.html">Privacy Policy</a> · Payments and licenses are handled by Lemon Squeezy.</span></div></footer>
+</body>
+</html>
