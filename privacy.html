@@ -24,6 +24,9 @@
   <p>If lifetime access is offered, payment processing and buyer access management are handled by ExtensionPay and Stripe on their separate checkout and account pages. PTCG Snap Redeem does not collect or store card numbers or other payment-card data.</p>
   <p>The extension contacts ExtensionPay to check whether the current user has paid. ExtensionPay manages buyer login and access restoration after reinstalling or using a different browser profile. The extension stores only its local scan count and the most recently confirmed paid-status flag in that browser profile.</p>
 
+  <h2>Optional anonymous usage analytics</h2>
+  <p>If a user expressly enables anonymous usage analytics in the extension, the extension sends event categories, extension version, and a random installation analytics identifier to Google Analytics over HTTPS. Events may include scan starts, QR decode outcomes, paywall and checkout opens, automated button clicks, and redemption outcome categories. The extension does not send QR images, decoded codes, video titles, page URLs, Pokémon account information, or payment information for analytics.</p>
+
   <h2>Third-party websites</h2>
   <p>After a successful scan, the extension opens the official Pokémon TCG Live redemption website. That website is operated by its owner and is governed by its own privacy policy and terms.</p>
 
